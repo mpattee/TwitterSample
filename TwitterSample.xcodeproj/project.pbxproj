@@ -20,6 +20,9 @@
 		5CE71EA815CC4901003A88A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE71E8915CC4901003A88A4 /* Foundation.framework */; };
 		5CE71EB015CC4901003A88A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CE71EAE15CC4901003A88A4 /* InfoPlist.strings */; };
 		5CE71EB315CC4901003A88A4 /* TwitterSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE71EB215CC4901003A88A4 /* TwitterSampleTests.m */; };
+		5CE71EBD15CC4915003A88A4 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE71EBC15CC4915003A88A4 /* Twitter.framework */; };
+		5CE71EBF15CC5285003A88A4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE71EBE15CC5285003A88A4 /* Accounts.framework */; };
+		5CE71EC215CC652C003A88A4 /* AGTweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE71EC115CC652C003A88A4 /* AGTweetCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,10 @@
 		5CE71EAF15CC4901003A88A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5CE71EB115CC4901003A88A4 /* TwitterSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwitterSampleTests.h; sourceTree = "<group>"; };
 		5CE71EB215CC4901003A88A4 /* TwitterSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterSampleTests.m; sourceTree = "<group>"; };
+		5CE71EBC15CC4915003A88A4 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		5CE71EBE15CC5285003A88A4 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		5CE71EC015CC652C003A88A4 /* AGTweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTweetCell.h; sourceTree = "<group>"; };
+		5CE71EC115CC652C003A88A4 /* AGTweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTweetCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +66,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE71EBF15CC5285003A88A4 /* Accounts.framework in Frameworks */,
 				5CE71E8815CC4901003A88A4 /* UIKit.framework in Frameworks */,
 				5CE71E8A15CC4901003A88A4 /* Foundation.framework in Frameworks */,
 				5CE71E8C15CC4901003A88A4 /* CoreGraphics.framework in Frameworks */,
+				5CE71EBD15CC4915003A88A4 /* Twitter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,8 @@
 		5CE71E7815CC4901003A88A4 = {
 			isa = PBXGroup;
 			children = (
+				5CE71EBE15CC5285003A88A4 /* Accounts.framework */,
+				5CE71EBC15CC4915003A88A4 /* Twitter.framework */,
 				5CE71E8D15CC4901003A88A4 /* TwitterSample */,
 				5CE71EAB15CC4901003A88A4 /* TwitterSampleTests */,
 				5CE71E8615CC4901003A88A4 /* Frameworks */,
@@ -114,6 +125,8 @@
 				5CE71E9615CC4901003A88A4 /* AGAppDelegate.h */,
 				5CE71E9715CC4901003A88A4 /* AGAppDelegate.m */,
 				5CE71E9915CC4901003A88A4 /* MainStoryboard.storyboard */,
+				5CE71EC015CC652C003A88A4 /* AGTweetCell.h */,
+				5CE71EC115CC652C003A88A4 /* AGTweetCell.m */,
 				5CE71E9C15CC4901003A88A4 /* AGViewController.h */,
 				5CE71E9D15CC4901003A88A4 /* AGViewController.m */,
 				5CE71E8E15CC4901003A88A4 /* Supporting Files */,
@@ -262,6 +275,7 @@
 				5CE71E9415CC4901003A88A4 /* main.m in Sources */,
 				5CE71E9815CC4901003A88A4 /* AGAppDelegate.m in Sources */,
 				5CE71E9E15CC4901003A88A4 /* AGViewController.m in Sources */,
+				5CE71EC215CC652C003A88A4 /* AGTweetCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
